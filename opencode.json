@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "ollama": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Ollama (local)",
+      "options": {
+        "baseURL": "http://localhost:11434/v1"
+      },
+      "models": {
+        "hf.co/deepreinforce-ai/Ornith-1.0-9B-GGUF:Q4_K_M": {
+          "name": "Ornith 1.0 9B"
+        }
+      }
+    }
+  }
+}
